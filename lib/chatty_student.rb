@@ -7,6 +7,6 @@ class ChattyStudent < Student
 
   def raise_hand
     super
-    return str * 10
+    print * 10
   end
 end
